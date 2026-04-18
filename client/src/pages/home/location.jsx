@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyCMMHWV8VSCEoqws7_Rh2Crea_rSPvv1t0"; // Replace with your actual key
+const GOOGLE_MAPS_API_KEY = "<REDACTED_GOOGLE_API_KEY>"; // Replace with your actual key
 
 export function Location() {
   const mapRef = useRef(null);
